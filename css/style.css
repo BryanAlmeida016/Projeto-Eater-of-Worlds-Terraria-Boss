@@ -9,6 +9,37 @@ h1{
     display: flex;
     justify-content: space-around;
     font-family: fantasy;
-    font-size: 50px;
-    font-weight: 90;
+    font-size: 280%;
+    font-weight: 64;
+}
+
+header{
+    width: 100%;
+}
+
+.logo{
+    text-align: center;
+    color: #ffffff92;
+    font-size: 1.5em;
+}
+
+nav{
+    text-align: center;
+    color: #ffffff92;
+    font-size: 1.5em;
+}
+
+.banner{
+    width: 100%;
+}
+
+.container{
+    background-color: rgb(79, 0, 116);
+    width: 80%;
+    margin: auto;
+}
+
+footer{
+    background-color: rgb(130, 130, 130);
+    width: 100%;
 }
