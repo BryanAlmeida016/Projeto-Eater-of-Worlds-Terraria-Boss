@@ -20,7 +20,14 @@ header{
 .logo{
     text-align: center;
     color: #ffffff92;
-    font-size: 1.5em;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+    font-weight: 100;
+}
+
+.terraria{
+    
 }
 
 nav{
@@ -31,6 +38,12 @@ nav{
 
 .banner{
     width: 100%;
+}
+
+.item{
+    width: 5%;
+    text-align: center;
+
 }
 
 .container{
