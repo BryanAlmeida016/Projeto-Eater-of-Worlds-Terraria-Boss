@@ -20,19 +20,21 @@ h3{
 
 header{
     width: 100%;
+    padding: 2.5%;
 }
 
 .logo{
     text-align: center;
     color: #ffffff92;
-    display: flex;
+    display: block;
     justify-content: space-around;
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: 100;
 }
 
 .terraria{
-    width: 100%;
+    width: 75%;
+    text-align: center;
 }
 
 li{
@@ -59,6 +61,10 @@ nav{
     background-color: rgb(79, 0, 116);
     width: 80%;
     margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 footer{
