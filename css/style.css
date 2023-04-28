@@ -11,11 +11,27 @@ h1{
     font-family: fantasy;
     font-size: 280%;
     font-weight: 64;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+
+h2{
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 90%;
+}
+
 h3{
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+p{
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 
 header{
@@ -39,21 +55,33 @@ header{
 
 li{
     text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 
 nav{
     text-align: center;
     color: #ffffff92;
-    font-size: 1.5em;
+    font-size: 2.0em;
 }
 
 .banner{
-    width: 100%;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .item{
     width: 5%;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 48%;
+    padding-right: 48%;
 
 }
 
