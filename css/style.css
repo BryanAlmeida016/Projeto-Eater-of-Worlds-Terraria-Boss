@@ -1,8 +1,9 @@
 body{
-    background-image: url(/img/Fundo.png);
-    background: #ad5389;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url();
+    background: #076585;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fff, #076585);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fff, #076585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 h1{
     color: rgb(1, 1, 63);
@@ -89,7 +90,21 @@ nav{
 }
 
 .container{
-    background-color: rgb(79, 0, 116);
+    background: #EB5757;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #bb0000, #e97777);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #bb0000, #e97777); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.container2{
+    background: #ad5389;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width: 80%;
     margin: auto;
     padding-top: 30px;
