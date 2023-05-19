@@ -1,0 +1,65 @@
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    color: #333333;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: Agency FB;
+}
+
+body{
+    background-image: url();
+    background: #076585;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fff, #076585);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fff, #076585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header{
+    width: 100%;
+    padding: 2.5%;
+}
+
+.logo{
+    text-align: center;
+    color: #ffffff92;
+    display: block;
+    justify-content: space-around;
+    font-size: 2.5em;
+    font-weight: 100;
+}
+
+.terraria{
+    width: 75%;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+li{
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+nav{
+    text-align: center;
+    color: #ffffff92;
+    font-size: 2.0em;
+}
+
+.banner{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
