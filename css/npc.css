@@ -37,9 +37,10 @@ header{
 }
 
 p{
+    width: 100%;
     text-align: center;
-    padding-top: 7px;
-    padding-bottom: 7px;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 li{
@@ -62,4 +63,13 @@ nav{
     padding-right: 80px;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.npcontainer{
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
 }
