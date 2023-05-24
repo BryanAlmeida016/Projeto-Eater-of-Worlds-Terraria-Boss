@@ -15,6 +15,10 @@ body{
     background: #076585;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #fff, #076585);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #fff, #076585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
 }
 
 header{
@@ -41,6 +45,8 @@ p{
     text-align: center;
     padding-top: 12px;
     padding-bottom: 12px;
+    font-family: Agency FB;
+    font-size: 1.3em;
 }
 
 li{
@@ -75,7 +81,11 @@ nav{
 }
 
 .ladodir{
-
+    float: inline-end;
+    padding-left: 15%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 4%;
 }
 
 .imgmeio{
