@@ -19,6 +19,8 @@ body{
     position: relative;
     height: 100vh;
     width: 100vw;
+    margin: auto;
+    border: auto;
 }
 
 header{
@@ -35,6 +37,14 @@ header{
     font-weight: 100;
 }
 
+h2{
+    color: #007497;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120%;
+    font-weight: bold;
+}
+
 .terraria{
     width: 75%;
     text-align: center;
@@ -45,8 +55,11 @@ p{
     text-align: center;
     padding-top: 12px;
     padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-family: Agency FB;
     font-size: 1.3em;
+    margin: auto;
 }
 
 li{
@@ -71,6 +84,15 @@ nav{
     padding-bottom: 20px;
 }
 
+.abertura{
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
 .npcontainer{
     width: 80%;
     margin: auto;
@@ -89,7 +111,7 @@ nav{
 }
 
 .imgmeio{
-
+    text-align: justify;
 }
 
 .npc{
