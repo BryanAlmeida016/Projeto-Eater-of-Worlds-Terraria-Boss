@@ -16,6 +16,7 @@ body{
     background: -webkit-linear-gradient(to right, #fff, #076585);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #fff, #076585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
+    background-attachment: fixed;
     position: relative;
     height: 100vh;
     width: 100vw;
@@ -25,7 +26,7 @@ body{
 
 header{
     width: 100%;
-    padding: 2.5%;
+    padding: 1.5%;
 }
 
 .logo{
@@ -37,12 +38,25 @@ header{
     font-weight: 100;
 }
 
+h1{
+    font-family: Agency FB;
+    text-align: center;
+    flex-flow: row wrap;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
 h2{
     color: #007497;
     text-align: justify;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 120%;
+    font-size: 1.5rem;
     font-weight: bold;
+}
+
+section{
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .terraria{
@@ -51,12 +65,11 @@ h2{
 }
 
 p{
-    width: 100%;
     text-align: center;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
     font-family: Agency FB;
     font-size: 1.3em;
     margin: auto;
@@ -74,8 +87,14 @@ nav{
     font-size: 2.0em;
 }
 
+footer{
+    width: 100%;
+    text-align: center;
+}
+
 .banner{
-    width: 90%;
+    width: 100%;
+    height: 100%;
     margin: auto;
     text-align: center;
     padding-left: 80px;
@@ -103,7 +122,7 @@ nav{
 }
 
 .ladodir{
-    float: inline-end;
+    float: left;
     padding-left: 15%;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -111,9 +130,27 @@ nav{
 }
 
 .imgmeio{
+    width: 5%;
     text-align: justify;
+    margin-left: 2%;
+    margin-bottom: 2%;
 }
 
-.npc{
-    
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.col-6{
+    width: 50%;
+}
+
+@media {max-width: 600px} {
+    .linha{
+        flex-direction: column;
+    }
+    .col-6{
+        width: 100%;
+    }
 }

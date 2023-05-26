@@ -58,6 +58,11 @@ header{
     padding: 2.5%;
 }
 
+section{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
 .logo{
     text-align: center;
     color: #ffffff92;
@@ -163,4 +168,38 @@ nav{
 footer{
     background-color: rgb(130, 130, 130);
     width: 100%;
+}
+
+.ladodir{
+    float: left;
+    padding-left: 15%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 4%;
+}
+
+.imgmeio{
+    width: 5%;
+    text-align: justify;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.col-6{
+    width: 50%;
+}
+
+@media {max-width: 600px} {
+    .linha{
+        flex-direction: column;
+    }
+    .col-6{
+        width: 100%;
+    }
 }
