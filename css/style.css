@@ -155,6 +155,9 @@ nav{
     padding-bottom: 35px;
     padding-left: 35px;
     padding-right: 35px;
+    border-style: groove;
+    border-color: #020060;
+    border-width: 18px;
 }
 
 .container{
@@ -167,6 +170,9 @@ nav{
     padding-bottom: 30px;
     padding-left: 35px;
     padding-right: 35px;
+    border-style: groove;
+    border-color: #020060;
+    border-width: 18px;
 }
 
 .container2{
@@ -179,6 +185,9 @@ nav{
     padding-bottom: 30px;
     padding-left: 35px;
     padding-right: 35px;
+    border-style: groove;
+    border-color: #020060;
+    border-width: 18px;
 }
 
 .container4{
@@ -191,6 +200,9 @@ nav{
     padding-bottom: 30px;
     padding-left: 35px;
     padding-right: 35px;
+    border-style: groove;
+    border-color: #020060;
+    border-width: 18px;
 }
 
 footer{
@@ -223,7 +235,36 @@ footer{
     width: 50%;
 }
 
-@media {max-width: 600px} {
+.video{
+    font-family: Agency FB;
+    text-align: center;
+    flex-flow: row wrap;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: grey;    
+    color: #fff;
+}
+
+.boxcard{
+    text-shadow: 2px 2px 5px rgb(94, 53, 0);
+    border-style: double;
+    border-color: #696969;
+    border-width: 9px;
+    box-shadow: 3px 3px 6px rgb(88, 0, 115);
+}
+
+.card{
+    text-shadow: 2px 2px 5px rgb(94, 53, 0);
+    border-style: double;
+    border-color: #696969;
+    border-width: 9px;
+}
+
+@media (max-width: 600px) {
     .linha{
         flex-direction: column;
     }
