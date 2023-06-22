@@ -158,6 +158,8 @@ nav{
     border-style: groove;
     border-color: #0300a1;
     border-width: 18px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 6px rgb(76, 0, 104);
 }
 
 .container{
@@ -173,6 +175,8 @@ nav{
     border-style: groove;
     border-color: #7c0101;
     border-width: 18px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 6px rgb(76, 0, 104);
 }
 
 .container2{
@@ -188,6 +192,8 @@ nav{
     border-style: groove;
     border-color: #550888;
     border-width: 18px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 6px rgb(76, 0, 104);
 }
 
 .container4{
@@ -203,6 +209,8 @@ nav{
     border-style: groove;
     border-color: #c40000;
     border-width: 18px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 6px rgb(76, 0, 104);
 }
 
 footer{

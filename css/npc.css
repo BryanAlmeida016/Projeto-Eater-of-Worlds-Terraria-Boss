@@ -199,6 +199,15 @@ a:hover {
     box-shadow: 3px 3px 6px rgb(88, 0, 115);
 }
 
+.float{
+    float: right;
+    width: 21%;
+    height: 21%;
+    border-style: double;
+    border-color: #4b1e00;
+    border-width: 5px;
+}
+
 @media (max-width: 600px) {
     .linha{
         flex-direction: column;
