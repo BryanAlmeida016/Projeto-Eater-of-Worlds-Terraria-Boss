@@ -213,6 +213,23 @@ nav{
     box-shadow: 3px 3px 6px rgb(76, 0, 104);
 }
 
+.container5{
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6f6f6f, #444444);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #383838); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-style: groove;
+    border-color: #212121;
+    border-width: 18px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 6px rgb(76, 0, 104);
+}
+
 footer{
     background-color: rgb(130, 130, 130);
     width: 100%;
