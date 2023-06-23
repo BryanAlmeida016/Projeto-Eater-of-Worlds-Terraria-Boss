@@ -289,6 +289,10 @@ a:hover {
     border-width: 9px;
 }
 
+.listasmeio{
+    list-style-image: url('../');
+}
+
 @media (max-width: 600px) {
     .linha{
         flex-direction: column;
