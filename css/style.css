@@ -215,8 +215,8 @@ nav{
 
 .container5{
     background: #333333;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #6f6f6f, #444444);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #434343, #383838); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #999898, #444444);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8b8a8a, #383838); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width: 80%;
     margin: auto;
     padding-top: 30px;
