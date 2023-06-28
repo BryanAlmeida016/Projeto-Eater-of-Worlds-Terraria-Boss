@@ -293,11 +293,26 @@ a:hover {
     list-style-image: url('../');
 }
 
+.button{
+    display: inline-block;
+    background-image: linear-gradient(to bottom, black, rgb(94, 53, 0));
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    color: #fff;
+}
+
 @media (max-width: 600px) {
     .linha{
         flex-direction: column;
     }
     .col-6{
         width: 100%;
+    }
+    .button{
+        display: flow-root;
+    }
+    .button:hover{
+        background-image: linear-gradient(to bottom, rgb(94, 53, 0), black;
     }
 }
