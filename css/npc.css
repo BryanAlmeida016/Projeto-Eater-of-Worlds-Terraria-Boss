@@ -38,6 +38,18 @@ header{
     font-weight: 100;
 }
 
+.tabletitle{
+    font-family: Charlemagne Std;
+    font-size: 3em;
+    font-weight: 100;
+    text-align: left;
+    flex-flow: row wrap;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 15%;
+    color: rgb(92, 49, 0);
+}
+
 h1{
     font-family: Agency FB;
     text-align: center;
@@ -89,7 +101,7 @@ table{
 th{
     border: 2.5px solid;
     height: 80px;
-    text-align: left;
+    text-align: center;
     width: 2.5%;
 }
 
@@ -207,6 +219,7 @@ a:hover {
     border-style: double;
     border-color: #4b1e00;
     border-width: 5px;
+    margin-left: 2.5%;
 }
 
 .button{
@@ -229,6 +242,6 @@ a:hover {
         display: flow-root;
     }
     .button:hover{
-        background-image: linear-gradient(to bottom, rgb(94, 53, 0), black;
+        background-image: linear-gradient(to bottom, rgb(94, 53, 0), black);
     }
 }
