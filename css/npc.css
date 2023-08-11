@@ -94,7 +94,7 @@ table{
     width: 70%;
     border: 5px solid;
     text-shadow: 2px 2px 5px rgb(0, 0, 0);
-    border-color: #696969;
+    border-color: #696969; 
     box-shadow: 3px 3px 6px rgb(92, 49, 0);
 }
 
@@ -142,6 +142,34 @@ nav{
 footer{
     width: 100%;
     text-align: center;
+    background-color: rgb(76, 0, 104);
+}
+
+.capa{
+    width: 32%;
+    height: 21%;
+    border-style: double;
+    border-color: #4b1e00;
+    border-width: 5px;
+    margin-left: 2.5%;
+    box-shadow: 6px 6px 9px rgb(88, 0, 115);
+}
+.inicio{
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 2.5%;
+    font-family: Agency FB;
+    font-size: 1.3em;
+    margin: auto;
+}
+
+.social{
+    width: 5%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 42%;
+    padding-right: 47%;
+    height: 5%;
 }
 
 .banner{

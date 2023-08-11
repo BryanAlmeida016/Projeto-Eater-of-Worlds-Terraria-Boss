@@ -231,7 +231,7 @@ nav{
 }
 
 footer{
-    background-color: rgb(130, 130, 130);
+    background-color: rgb(76, 0, 104);
     width: 100%;
 }
 
@@ -311,6 +311,42 @@ a:hover {
     border-radius: 5px;
     display: inline-block;
     color: #fff;
+}
+
+.float{
+    float: right;
+    width: 21%;
+    height: 21%;
+    border-style: double;
+    border-color: #4b1e00;
+    border-width: 5px;
+    margin-left: 2.5%;
+}
+.capa{
+    width: 32%;
+    height: 21%;
+    border-style: double;
+    border-color: #4b1e00;
+    border-width: 5px;
+    margin-left: 2.5%;
+    box-shadow: 6px 6px 9px rgb(88, 0, 115);
+}
+.inicio{
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 2.5%;
+    font-family: Agency FB;
+    font-size: 1.3em;
+    margin: auto;
+}
+
+.social{
+    width: 5%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 42%;
+    padding-right: 47%;
+    height: 5%;
 }
 
 @media (max-width: 600px) {
