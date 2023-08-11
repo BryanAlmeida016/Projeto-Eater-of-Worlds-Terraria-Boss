@@ -233,6 +233,7 @@ nav{
 footer{
     background-color: rgb(76, 0, 104);
     width: 100%;
+    text-align: center;
 }
 
 .ladodir{
@@ -342,10 +343,6 @@ a:hover {
 
 .social{
     width: 5%;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left: 42%;
-    padding-right: 47%;
     height: 5%;
 }
 
