@@ -257,6 +257,45 @@ a:hover {
     color: #fff;
 }
 
+.fixo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  
+}
+
+<!--Menu-->
+.itens_menu{
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+.itens_menu a{
+    font-size: 1.2em;
+}
+  
+.itens_menu a:link, .itens_menu a:visited{ 
+    color: #fff;
+    text-decoration: none;
+}  
+
+/* mouse over link */
+.itens_menu a:hover {
+    color: #fff;
+    padding: 0.8%;    
+    background-color: rgba(128, 128, 128, 0.3); 
+    text-decoration: none;
+    border-radius: 15%;
+}
+    
+/* selected link */
+.itens_menu a:active {
+    color: #FFF;
+    text-decoration: none;
+}
+
 @media (max-width: 600px) {
     .linha{
         flex-direction: column;
