@@ -224,8 +224,10 @@ footer{
 
 a:hover {
     text-decoration: none;
-    background-color: grey;    
+    background-color: rgb(94, 53, 0);    
     color: #fff;
+    border-radius: 5px;
+    display: inline-block;
 }
 
 .boxcard{
