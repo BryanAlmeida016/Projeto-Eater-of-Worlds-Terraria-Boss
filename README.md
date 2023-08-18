@@ -1,2 +1,2 @@
-# https://bryanalmeida016.github.io/Projeto-Eater-of-Worlds-Terraria-Boss
+# https://bryanalmeida016.github.io/Projeto-Terraria-Guide
 Material de IW
