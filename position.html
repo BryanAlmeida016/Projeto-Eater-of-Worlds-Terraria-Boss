@@ -14,16 +14,22 @@
             background: -webkit-linear-gradient(to right, #fff, #076585);  /* Chrome 10-25, Safari 5.1-6 */
             background: linear-gradient(to right, #fff, #076585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         }
+        
         h1{
             background-color: rgb(76, 0, 104);
             border-radius: 15px;
             color: #fff;
             text-align: center;
+            font-family: Agency FB;
         }
+
         p{
             background-color: gray;
             text-align: center;
             border-radius: 15px;
+            font-family: Agency FB;
+            font-weight: bold;
+            font-size: large;
         }
 
         .botton{
@@ -50,6 +56,7 @@
             top:60px;
             position: relative;
             background-color: black;
+            margin-bottom: 12%;
         }     
         
         .topodir{
@@ -61,7 +68,6 @@
             font-weight: bold;
             text-align: center;
         }
-
         .topoesq{
             position: absolute;
             width: 20%;
@@ -71,7 +77,6 @@
             font-weight: bold;
             text-align: center;
         }
-
         .baixoesq{
             position: absolute;
             width: 20%;
@@ -90,11 +95,18 @@
             font-weight: bold;
             text-align: center;
         }
-
         .centro{
             position: absolute;
             width: 20%;
-            
+            background-color: #008060;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 43%;
+            margin-left: 40%;
+            margin-right: 48%;
+            margin-bottom: 50%;
+            align-items: center;
+            justify-content: center;
         }
 
         .terraria{
@@ -106,7 +118,17 @@
         }
 
         footer{
-            background-color: #fcc0fe;
+            position: fixed;
+            width: 100%;
+            text-align: center;
+            background-color: rgb(76, 0, 104);
+            z-index: 1030;
+            bottom: 0;
+        }
+
+        .social{
+            width: 3%;
+            height: 3%;
         }
 
     </style>
@@ -129,13 +151,15 @@
             <h1>Teste dos lados...</h1>
             <div class="topodir"> Topodir </div>
             <div class="topoesq"> Topoesq </div>
+            <div class="centro"> Centro </div>
             <div class="baixoesq"> baixoesq </div>
             <div class="baixodir"> baixodir </div>
-            <div class="centro"> centro </div>
         </div>
     </div>
-<footer>
-    <a href="index.html"> <div><p class="botton">HOME</p></div></a>
+<footer class="footer">
+    <p class="nada"> Desenvolvido por Bryan Almeida </p>
+	<a target="_blank" href="https://github.com/BryanAlmeida016"><img class="social" src="img/Icones/github.webp" alt="Caminho para meu git"></a> 
+	<a target="_blank" href="https://br.linkedin.com/"><img class="social" src="img/Icones/Linkedin.png" alt="Caminho para meu futuro linkedin"></a> 
 </footer>
 </body>
 </html>
