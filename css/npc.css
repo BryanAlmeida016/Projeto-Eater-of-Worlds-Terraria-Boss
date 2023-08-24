@@ -1,7 +1,7 @@
 html{
     scroll-behavior: smooth;
 }
-
+ 
 a{
     color: #333333;
     text-align: center;
@@ -38,6 +38,16 @@ header{
     font-weight: 100;
 }
 
+.Title{
+    position: fixed;
+    background-color: #421e00;
+    border-radius: 15px;
+    width: 91%;
+    z-index: 1030;
+    top: 2%;
+    align-items: center;
+}
+
 .tabletitle{
     font-family: Charlemagne Std;
     font-size: 3em;
@@ -72,8 +82,10 @@ section{
 }
 
 .terraria{
-    width: 50%;
+    width: 45%;
     text-align: center;
+    align-items: center;
+    padding-top: 7%;
 }
 
 p{
@@ -151,7 +163,7 @@ footer{
     border-style: double;
     border-color: #4b1e00;
     border-width: 5px;
-    margin-left: 2.5%;
+    align-items: center;
     box-shadow: 6px 6px 9px rgb(88, 0, 115);
 }
 .inicio{
@@ -249,12 +261,17 @@ a:hover {
 }
 
 .button{
+    position: fixed;
     display: inline-block;
+    top: 100px;
     background-image: linear-gradient(to bottom, black, rgb(94, 53, 0));
     text-decoration: none;
     border-radius: 5px;
-    display: inline-block;
     color: #fff;
+}
+
+.bright{
+    left: 41%;
 }
 
 .fixo{
