@@ -56,8 +56,10 @@ h3{
 
 p{
     text-align: center;
-    padding-top: 7px;
-    padding-bottom: 7px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
     font-family: Agency FB;
     font-size: 1.3em;
     margin: auto;
@@ -242,6 +244,40 @@ nav{
     box-shadow: 3px 3px 6px rgb(76, 0, 104);
 }
 
+.container6{
+    background: #d6af00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffe47a, #d6af00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffe47a, #d6af00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-style: groove;
+    border-color: #8c7500;
+    border-width: 18px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 6px rgb(76, 0, 104);
+}
+
+.container7{
+    background: #ff0000b8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #511a00, #ff0000b8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #511a00, #ff0000b8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-style: groove;
+    border-color: #ff0000;
+    border-width: 18px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 6px rgb(76, 0, 104);
+}
+
 footer{
     background-color: rgb(76, 0, 104);
     width: 100%;
@@ -321,7 +357,7 @@ a:hover{
 
 .button{
     position: fixed;
-    top: 90px;
+    top: 92px;
     background-image: linear-gradient(to bottom, black, rgb(94, 53, 0));
     text-decoration: none;
     border-radius: 5px;
