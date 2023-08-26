@@ -36,7 +36,7 @@ h1{
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
+ 
 h2{
     color: #2b0042;
     text-align: right;
@@ -67,7 +67,6 @@ p{
 
 header{
     width: 100%;
-    padding: 2.5%;
 }
 
 section{
@@ -89,17 +88,20 @@ section{
     position: fixed;
     background-color: #421e00;
     border-radius: 15px;
-    width: 95%;
+    width: 91%;
     z-index: 1030;
     top: 2%;
+    right: 1%;
+    left: 1%;
     align-items: center;
 }
 
 .terraria{
     width: 45%;
-    padding-top: 3%;
+    padding-top: 5%;
     text-align: center;
     align-items: center;
+    position: relative;
 }
 
 .boss{
@@ -317,14 +319,6 @@ footer{
     padding-bottom: 1%;
 }
 
-a:hover{
-    text-decoration: none;
-    background-color: rgb(94, 53, 0);    
-    color: #fff;
-    border-radius: 5px;
-    display: inline-block;
-}
-
 .boxcard{
     text-shadow: 2px 2px 5px rgb(94, 53, 0);
     border-style: double;
@@ -355,20 +349,6 @@ a:hover{
     color: rgb(92, 49, 0);
 }
 
-.button{
-    position: fixed;
-    top: 92px;
-    background-image: linear-gradient(to bottom, black, rgb(94, 53, 0));
-    text-decoration: none;
-    border-radius: 5px;
-    display: inline-block;
-    color: #fff;
-}
-
-.bright{
-    left: 42%;
-}
-
 .float{
     float: right;
     width: 21%;
@@ -378,6 +358,7 @@ a:hover{
     border-width: 5px;
     margin-left: 2.5%;
 }
+
 .capa{
     width: 32%;
     height: 21%;
@@ -387,6 +368,16 @@ a:hover{
     align-items: center;
     box-shadow: 6px 6px 9px rgb(88, 0, 115);
 }
+
+.abertura{
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
 .inicio{
     text-align: center;
     padding-top: 7px;
@@ -401,42 +392,60 @@ a:hover{
     height: 5%;
 }
 
-.fixo{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
+<!--Menu-->
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: white;
 }
 
-<!--Menu-->
 .itens_menu{
+    position: fixed;
+    top: 100px;
+    z-index: 1030;
     line-height: 1.5;
     text-align: center;
+    display: inline-block;
+    left: 2%;
+    right: 50%;
   }
   
 .itens_menu a{
-    font-size: 1.2em;
+    font-size: 0.5em;
+    line-height: 1.5;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
 }
   
 .itens_menu a:link, .itens_menu a:visited{ 
     color: #fff;
     text-decoration: none;
+    background-image: linear-gradient(to bottom, black, rgb(94, 53, 0));
+    border-radius: 9px;
 }  
 
-/* mouse over link */
+/* mouse por cima do link */
 .itens_menu a:hover {
-    color: #fff;
-    padding: 0.8%;    
-    background-color: rgba(128, 128, 128, 0.3); 
     text-decoration: none;
-    border-radius: 15%;
+    background-image: linear-gradient(to bottom, rgb(94, 53, 0), black);    
+    color: #fff;
+    border-radius: 9px;
+    padding: 0.8%;
+    display: inline-block;
 }
     
-/* selected link */
+/* link selecionado */
 .itens_menu a:active {
     color: #FFF;
     text-decoration: none;
+}
+
+@media (min-width: 601px){
+
 }
 
 @media (max-width: 600px) {
