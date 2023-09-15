@@ -392,6 +392,10 @@ footer{
     height: 5%;
 }
 
+.textocentro{
+    text-align: center;
+}
+
 <!--Menu-->
 .button{
     display: inline-block;
@@ -444,8 +448,90 @@ footer{
     text-decoration: none;
 }
 
-@media (min-width: 601px){
+.bug{
+    position: fixed;
+    right: 2%;
+    top: 18%
+}
 
+.contato-cont{
+    background-color:rgba(25, 54, 109, 0.498);
+    width: 80%;
+    margin: auto;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(88, 0, 115);
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+input[type=submit] {
+    background-color: rgb(104, 104, 104);
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    cursor: pointer;
+    border-color: black;
+    margin-bottom: 2%;
+    margin-left: 177%;
+}
+  
+input[type=submit]:hover {
+    background-color: rgb(88, 0, 115);
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.titucon{
+    font-size: 150%;
+    font-family: Agency FB;
+    color: rgb(88, 0, 115);
+}
+
+#fnome, #País, #Mensagem{
+    font-size: 125%;
+}
+
+.h2contat{
+    color: rgb(206, 191, 191);
+    text-align: center;
+    padding: 1%;
+    font-size: 2.0em;
+    font-family: monospace;
+    text-shadow: 2px 2px 5px rgb(102, 0, 161);
+}
+
+.colunas{
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+.pcont{
+    color: rgb(206, 191, 191);
+    padding: 1%;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    font-family: monospace;
+    text-shadow: 2px 2px 5px black;
+}
+
+@media screen {
+    .imgcentrocont{
+        display: block;
+        width: 40%;
+        margin-top: 2%;
+        margin-right: 29%; 
+        margin-left: 40%;
+    }
 }
 
 @media (max-width: 600px) {
@@ -460,5 +546,21 @@ footer{
     }
     .button:hover{
         background-image: linear-gradient(to bottom, rgb(94, 53, 0), black);
+    }
+    .terraria{
+        width: 70%;
+        padding-top: 5%;
+        text-align: center;
+        align-items: center;
+        position: relative;
+    }
+    input[type=submit] {
+        background-color: rgb(104, 104, 104);
+        color: rgb(0, 0, 0);
+        padding: 12px 20px;
+        cursor: pointer;
+        border-color: black;
+        margin-bottom: 2%;
+        margin-left: 140%;
     }
 }
