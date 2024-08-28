@@ -4,385 +4,109 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title> Meu Primeiro HTML5 </title>
+	<title> Terraria - Menu</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="img/favicon_skelet2.ico" type="image/x-icon">
 </head>
+
 <body>
 	<!--header irá representar o logo e menu do site -->
-	<header>
-		<nav class="itens_menu">
-			<p class="Title"> Terraria Boss-Guide </p>
-			<ul class="fixo">
-				<a href="index.html" class="button">BOSS'S</a>
-				<a href="npc.html" class="button" >NPC'S</a>
-				<a href="#allbosses" class="button">AUXILIO</a>
-				<a href="#SlimeKing" class="button">GELEIA-REI</a>
-				<a href="#EyeofCthulhu" class="button">OLHO-DE-CTHULHU</a>
-				<a href="#EaterofWorlds" class="button">DEVORADOR-DE-MUNDOS</a>
-				<a href="#BrainofCthulhu" class="button">CÉREBRO-DE-CTHULHU</a>
-				<a href="#QueenBee" class="button">ABELHA-RAINHA</a>
-				<a href="#Skeletron" class="button">SKELETRON</a>
-				<a href="#Wallofflesh" class="button">PAREDE-DE-CARNE</a>
-			</ul>
-		</nav>
-		<div class="bug">
-            <a href="contato.html"><img width="100px" src="img/botao_erro.png" alt=""></a>
-        </div>
+	<header class="fixo">
 		<div class="logo">
-			<figure>
-				<a target="_blank" href="https://store.steampowered.com/app/105600/Terraria/"><img class="terraria" src="img/201-2011625_terraria-logo-png-terraria-game.png" alt="Logo Terraria"></a> 
-			</figure>
+		  <img class="logo" src="img/201-2011625_terraria-logo-png-terraria-game.png" alt="logo">
 		</div>
-		<p class="inicio" >Terraria é um jogo de aventura e sandbox desenvolvido pela Re-Logic. Foi lançado inicialmente em 2011 e está disponível para várias plataformas, incluindo PC, consoles e dispositivos móveis.</p>
-		<p class="inicio" >No game, os jogadores são colocados em um mundo gerado aleatoriamente, onde têm a liberdade de explorar, construir estruturas, coletar recursos, combater inimigos e descobrir tesouros. O jogo combina elementos de exploração, construção, mineração e combate, oferecendo uma ampla gama de atividades e possibilidades.</p>
-		<nav>
-			<ul>
-				<img class="capa" src="img/Terraria-Capa.jpg" alt="Capa do jogo em ambas as plataformas">
-			</ul>
+		<nav class="menu">
+		  <ul>
+			<li><a href="index.html">Menu</a></li>
+			<li><a href="soundtracks.html">Soundtracks</a></li>
+			<li><a href="biomas.html">Biomas</a></li>
+			<li><a href="bosses.html">Bosses</a></li>
+			<li><a href="contato.html">Contato</a></li>
+		  </ul>
 		</nav>
-	</header>
-	<div class="vidcontainer">
-		<section id="allbosses">
-		</section>
+	  </header>
+	  <figure>
+		<img class="banner" src="img/terraria banner.jpg" alt="Terraria banner">
+	  </figure>
+
+	  <div class="container">
 		<section>
-			<div class="linha">
-				<div class="col-6">
-					<div class="boxcard">
-						<iframe width="80%" height="250" src="https://www.youtube.com/embed/KmQCOahb6jw" title="DO EYE OF CTHULHU AO MOON LORD: COMO INVOCAR TODOS OS CHEFES NO TERRARIA – TERRARIA 1.4 - MIMOSINHA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-						<div>
-							<h1 class="video"> Entenda como invocar todos os boss's </h1>
-						</div>
-					</div>
-				</div>
-				<div class="col-6">
-					<div class="boxcard">
-						<iframe width="80%" height="250" src="https://www.youtube.com/embed/hYUyZqluiuk" title="Veja TODOS os Drops dos Bosses no Terraria 😎👌" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-						<div>
-							<h1 class="video"> Todos os possíveis drops de cada boss </h1>
-						</div>
-					</div>
-				</div>
-			</div>
+		  <article>
+			<h1 id="terraria">Terraria</h1>
+			<p>Terraria é um jogo de aventura e sandbox desenvolvido pela Re-Logic. Foi lançado inicialmente em 2011 e está disponível para várias plataformas, incluindo PC, consoles e dispositivos móveis.</p>
+			<p>No game, os jogadores são colocados em um mundo gerado aleatoriamente, onde têm a liberdade de explorar, construir estruturas, coletar recursos, combater inimigos e descobrir tesouros. O jogo combina elementos de exploração, construção, mineração e combate, oferecendo uma ampla gama de atividades e possibilidades.</p>
+			<img class="titleimage" src="img/visaodemundo.jpg" alt="Worldsense">
+		  </article>
+		  <article>
+			<h1>Desenvolvimento</h1>
+			<img class="float" src="img/Npc float.jpg" alt="NPC">
+			<p>Terraria foi lançado oficialmente em 16 de maio de 2011 pela desenvolvedora independente Re-Logic, criada por Andrew "Redigit" Spinks. O jogo surgiu como um projeto de paixão, inspirado por outros títulos de sandbox e construção como Minecraft, mas trouxe seu próprio estilo ao combinar elementos de ação, aventura, RPG e exploração em um ambiente 2D.</p>
+		  </article>
+		  <article>
+			<h1>Jogabilidade</h1>
+			<p>O mundo de Terraria é gerado de forma procedural, o que significa que cada mundo é único em termos de geografia, biomas, e distribuição de recursos. Os jogadores começam com ferramentas básicas e devem explorar as profundezas da terra, cavando e coletando materiais como minérios, madeira e pedras. Esses recursos são essenciais para criar equipamentos, construir abrigos e progredir no jogo. A exploração é incentivada por biomas variados, como florestas, desertos, cavernas, e oceanos, cada um com seus próprios recursos e inimigos.</p>
+	
+			<p>A construção é uma parte central de Terraria. Os jogadores podem construir casas, fortalezas ou qualquer estrutura que possam imaginar usando os materiais coletados. Essas construções não são apenas estéticas; elas também servem como abrigos para os NPCs (personagens não jogáveis) que os jogadores podem atrair e que oferecem serviços úteis, como venda de itens e cura. Além disso, o jogo possui um sistema de crafting robusto, onde os jogadores podem criar armas, armaduras, ferramentas, e itens de consumo combinando materiais em diferentes estações de trabalho.</p>
+
+			<p>Terraria também suporta o modo multijogador, onde os jogadores podem se unir a amigos para explorar, construir e lutar juntos. O multiplayer adiciona uma camada extra de estratégia e diversão, permitindo que grupos de jogadores se especializem em diferentes papéis, como combatentes, construtores, ou exploradores.</p>
+			<img class="titleimage" src="img/jogabilidade.gif" alt="gameplay">
+		  </article>
 		</section>
-	</div>
-	<h1 class="tabletitle"> Pré-Hardmode </h1>
-	<!--king slime-->
-	<figure>
-		<img class="banner" src="img/uh4hjahrgri51.webp" alt="Imagem contendo um dos primeiros bosses de Terraria, um jogo de RPG pixelado, associado a uma enorme geleia">
-	</figure>
-	<div class="container3" id="SlimeKing">
-		<h1> Geleia Rei (King Slime) </h1>
-		<p>O King Slime é um dos primeiros chefes encontrados no Terraria e é um dos mais simples de derrotar.</p>
-		<p>É uma versão maior e mais poderosa do Slime comum.</p>
-		<P>Ele pode ser encontrado em qualquer lugar na superfície, desde que haja espaço suficiente para ele aparecer.</P>
-		<P>O King Slime possui 2000 pontos de vida (HP) em todas as plataformas, exceto na versão mobile, onde ele tem 1400 HP.</P>
-		<P>Ele causa danos principalmente através de contato físico, mas também pode disparar pequenas Slimes para atacar.</P>
-		<figure>
-			<img class="boss" src="img/King_Slime.gif" alt="King Slime">
-		</figure>
 		<article>
-			<h2> APRESENTAÇÃO </h2>
-			<section>
-				<h3> Spawn / Summon </h3>
-				<p>Para invocar o King Slime, você precisa encontrar um item chamado "Slime Crown". Ele pode ser criado usando uma coroa de ouro/platina e gel (obtido derrotando Slimes).</p>
-				<figure>
-					<img class="item" src="img/Slime_Crown.webp" alt="Slime Crown">
-				</figure>
-			</section>
+		  <section>
+			<h1>Curiosidades</h1>
+			<ul id="Curiosidades">
+			  <li class="topic">° Terraria está cheio de referências a outras obras de ficção e cultura pop. Por exemplo, o jogo tem itens que fazem referência a filmes, jogos e séries, como a "Lightsaber" que lembra a arma de Star Wars e o "Master Sword" que é uma homenagem ao icônico item da série The Legend of Zelda.</li>
+			  <li class="topic">° O personagem "Moon Lord," um dos chefes finais do jogo, tornou-se um meme na comunidade de Terraria. Muitas piadas surgiram sobre ele ser uma paródia do chefe final de Final Fantasy, o "Moon Presence," devido à sua aparência e dificuldade.</li>
+			</ul>
+			<div class="imagem-card">
+				<iframe class="video" width="80%" height="400" src="https://www.youtube.com/embed/w7uOhFTrrq0" title="Terraria Official Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			</div>
+			<div>
+			  <h1>Terraria - Release Trailer</h1>
+			  <p class="meio">Veja a cima o trailer de lançamento do jogo</p>
+			</div>
+		  </section>
 		</article>
-		<article>
-			<h2> BOSS-FIGHT - PREPARO </h2>
-			<section>
-				<h3> Itens Recomendados - Estratégias </h3>
-				<ul>
-					<li>O King Slime tem um padrão de ataque simples, então a melhor estratégia é ficar em movimento constante para evitar seu contato.</li>
-					<li>Use armas com alcance suficiente para atacá-lo sem se aproximar muito, como arcos, bestas ou armas de longo alcance.</li>
-					<li>Se possível, crie algumas plataformas no local de batalha para facilitar a movimentação e esquivar-se dos ataques do King Slime.</li>
-					<li>Ao derrotar os pequenos Slimes que ele solta, você pode receber pequenos corações que recuperam sua vida, então colete-os sempre que necessário.</li>
-				</ul>
-			</section>
-			<section>
-				<h3> Drops </h3>
-				<ul>
-					<li>Gel (quantidade alta);</li>
-					<li>Moedas de cobre, prata ou ouro;</li>
-					<li>O acessório "Ninja Hood" (ocasionalmente);</li>
-					<li>O pet "Slime Prince" (ocasionalmente);</li>
-					<li>Solidificador;</li>
-					<li>Slime Gun (66,67% de chances);</li>
-					<li>King Slime Mask (14,29% de chances);</li>
-					<li>Slime Hook (33,33% de chances);</li>
-					<li>King Slime Trophy (10% de chances).</li>
-				</ul>
-			</section>
-		</article>
-	</div>
-	<!--olho de cthulhu-->
-	<figure>
-		<img class="banner" src="img/Eye of Cthulhu.jpg" alt="Imagem contendo um dos primeiros bosses de Terraria, um jogo de RPG pixelado, associado a um olho faminto">
-	</figure>
-	<div class="container" id="EyeofCthulhu">
-		<h1>Olho de Cthulhu (Eye of Cthulhu)</h1>
-		<p>O Eye of Cthulhu é o primeiro chefe que muitos jogadores encontram no Terraria. Ele se assemelha a um olho flutuante e tem dois estágios distintos durante a batalha.</p>
-		<p>No primeiro estágio, ele flutua em direção ao jogador, tentando fazer contato físico. Ele tem 2800 pontos de vida (5600 no Expert Mode) e tem uma velocidade considerável. Uma vez que seus pontos de vida caem abaixo de 50%, ele entra no segundo estágio.</p>
-		<p>No segundo estágio, o Eye of Cthulhu se torna mais rápido e agressivo, ganhando novos ataques, como disparar projéteis de sangue e lançar-se em alta velocidade em direção ao jogador.</p>
-		<figure>
-			<img class="boss" src="img/Eye_of_Cthulhu_(Phase_1).gif" alt="Eye of Cthulhu">
-		</figure>
-		<article>
-			<h2> APRESENTAÇÃO </h2>
-			<section>
-				<h3> Spawn / Summon </h3>
-				<p>O Eye of Cthulhu é ativado manualmente pelo jogador usando um item chamado "Suspicious Looking Eye" durante a noite. O jogador pode encontrá-lo em baús subterrâneos ou comprá-lo de um Merchant quando tem mais de 6 NPCs vivendo em sua cidade.</p>
-				<figure>
-					<img class="item" src="img/Servant_of_Cthulhu.png" alt="Servant of Cthulhu">
-				</figure>
-			</section>
-		</article>
-		<article>
-			<h2> BOSS-FIGHT - PREPARO </h2>
-			<section>
-				<h3>Itens Recomendados - Estratégias</h3>
-				<ul>
-					<li>Preparação: Antes da batalha, certifique-se de ter uma boa armadura, armas e poções para aumentar seus atributos. Itens como Ironskin Potion, Regeneration Potion e Swiftness Potion são úteis.</li>
-					<li>Arena: Construa uma arena espaçosa com plataformas para facilitar a movimentação. Também é útil colocar Campfires e Heart Lanterns para aumentar a regeneração de vida.</li>
-					<li>Movimentação: Durante a batalha, mantenha-se em constante movimento para evitar ser atingido pelo Eye of Cthulhu. Usar um gancho ou asas pode ajudar na mobilidade.</li>
-					<li>Ataques à distância: Se você tiver acesso a armas à distância, como arcos ou armas de fogo, utilize-as para atacar o chefe.</li>
-					<li>Lâminas e armas corpo-a-corpo: No segundo estágio da batalha, quando o Eye of Cthulhu se torna mais rápido, armas corpo-a-corpo, como espadas e lanças, podem ser mais eficazes. Mantenha-se em movimento e desvie dos ataques.</li>
-				</ul>
-			</section>
-			<section>
-				<h3> Drops </h3>
-				<ul>
-					<li>Demonite/Crimtane Ore (dependendo da corrupção/carmim em seu mundo);</li>
-					<li>Suspicious Looking Eye (usado para convocar o chefe novamente);</li>
-					<li>Treasure Bag (apenas no Expert Mode);</li>
-					<li>Binóculos;</li>
-					<li>Shield of Cthulhu (apenas no Expert Mode).</li>
-				</ul>
-			</section>
-		</article>
-	</div>
-	<!--devorador de mundos-->
-	<figure>
-		<img class="banner" src="img/bannerDevoradordeMundos.webp" alt="Imagem contendo um dos bosses de Terraria, um jogo de RPG pixelado, associado a corrupção">
-	</figure>
-	<div class="container2" id="EaterofWorlds">
-		<h1>Devorador de Mundos (Eater of Worlds)</h1>
-		<p>Apontado como o segundo chefe do game, sendo necessário para progressão, caso tenha escolhido a maldade "Corruption".</p>
-		<p>Trata-se de um enorme verme que atravessa as profundezas sombrias. Possui um total de 10.050 (Clássico e Journey)/15.120 (Expert)/19.224 (Master) de saúde em todas as plataformas.</p>
-		<figure>
-			<img class="bosseaterofworlds" src="img/Eater_of_Worlds.webp" alt="Eater of Worlds">
-		</figure>
-		<article>
-			<h2> APRESENTAÇÃO </h2>
-			<section>
-				<h3>Spawn / Summon</h3>
-				<p>Tradicionalmente, pode ser invocado ao quebrar três Shadow Orb, encontrados em pequenos buracos nas Corruption-Chasms, cercados por Ebonstone, o que requer uma picareta com 65% de poder de picareta ou superior para minerar, embora explosivos ou pó de purificação possam ser usados para contornar isso.</p> 
-				<figure>
-					<img class="item" src="img/Shadow_Orb.gif" alt="Shadow Orb">
-				</figure>
-				<p>Uma vez dentro do alcance, os Shadow Orbs podem ser destruídos com um martelo ou explosivos. O Devorador de Mundos só pode ser convocado na Corrupção e pode ser convocado a qualquer hora do dia. Se conseguir escapar da Corrupção, fugirá e desaparecerá.</p>
-				<p>Além desse método, o Eater of Worlds também é convocado ao consumir um "Worm Food", fabricado a partir da junção de "pó vil" e "pedaço podre" em frente a um altar maligno</p>
-				<figure>
-					<img class="item" src="img/Worm_Food.png" alt="Worm Food">
-				</figure>
-			</section>
-		</article>
-		<article>
-			<h2>BOSS-FIGHT - PREPARO</h2>
-			<section>
-				<h3>Itens Recomendados - Estratégias</h3>
-				<ul>
-					<li>Armas à Distância: Armas como arcos, bestas e armas de fogo podem ser eficazes contra o Eater of Worlds. Essas armas permitem que o jogador cause dano à distância, mantendo uma distância segura do monstro.</li>
-					<li>Armas Corpo-a-Corpo: Armas de corpo-a-corpo com alto dano, como espadas e martelos, também podem ser eficazes contra o Eater of Worlds. O jogador deve tentar acertar a cabeça do monstro, já que isso causa mais dano.</li>
-					<li>Bombas: Bombas podem ser usadas para destruir o chão e criar espaço para o jogador se mover. Também podem causar dano significativo ao monstro se usadas corretamente.</li>
-					<li>Estrutura Defensiva: Construir uma estrutura defensiva, como uma torre ou muro, pode ajudar a proteger o jogador de ataques do Eater of Worlds. O jogador pode ficar em cima da estrutura e atirar em direção ao monstro.</li>
-					<li>Poções: O uso de poções de cura, defesa e resistência pode ser útil para aumentar a sobrevivência do jogador durante a batalha.</li>
-				</ul>
-			</section>
-			<section>
-				<h3>Drops</h3>
-				<ul>
-					<li>Demonite Ore;</li>
-					<li>Shadow scale;</li>
-					<li>Worm tooth;</li>
-					<li>Unholy Arrow;</li>
-					<li>Rotten Chunk;</li>
-					<li>Eater of Worlds Mask (1 em 7 chances);</li>
-					<li>Eater of Worlds Trophy (10% de chances);</li>
-					<li>Eater of Worlds Hook (33% de chances);</li>
-					<li>Eater of Souls Banner (20% de chances);</li>
-					<li>Worm Scarf <strong>(Expert)</strong>.</li>
-				</ul>
-			</section>
-		</article>
-	</div>
-	<!--cérebro de cthulhu-->
-	<figure>
-		<img class="banner" src="img/Brain of Cthulhu.jpg" alt="Imagem contendo um dos primeiros bosses de Terraria, um jogo RPG pixelado, associado ao crimson">
-	</figure>
-	<div class="container4" id="BrainofCthulhu">
-		<h1>Cérebro de Cthulhu (Brain of Cthulhu)</h1>
-		<p>Também apontado como o segundo chefe do game, sendo necessário para progressão, caso tenha escolhido a maldade "Crimsom".</p>
-		<p>O Cérebro de Cthulhu é um cérebro grande e voador com apenas 1.250 / 2.125 / 2.709 de saúde, dando a ele a menor quantidade de saúde de qualquer chefe.</p>
-		<figure>
-			<img class="boss" src="img/Brain_of_Cthulhu_(First_Phase).webp" alt="Brain of Cthulhu">
-		</figure>
-		<article>
-			<h2>APRESENTAÇÃO</h2>
-			<section>
-				<h3>Spawn / Summon</h3>
-				<p>Para invocar o Brain of Cthulhu, você precisa quebrar três Pulsating Hearts (Corações Pulsantes) encontrados nas áreas de Crimson. Uma vez que os três corações são quebrados, o boss será convocado automaticamente.</p>
-				<figure>
-					<img class="item" src="img/Crimson_Heart.webp" alt="Crimson Heart">
-				</figure>
-			</section>
-		</article>
-		<article>
-			<h2>BOSS-FIGHT - PREPARO</h2>
-			<section>
-				<h3>Itens Recomendados - Estratégias</h3>
-				<ul>
-					<li>Antes da luta, é recomendável preparar uma arena plana e espaçosa para facilitar a movimentação.</li>
-					<li>Durante a luta, é importante focar nos Creepers que o boss invoca, pois se não forem destruídos rapidamente, eles se transformarão em pequenos Brain of Cthulhus adicionais.</li>
-					<li>Use armas que tenham uma boa taxa de ataque e alcance para lidar com os Creepers e o boss em si.</li>
-					<li>É aconselhável usar poções de cura, poções de aumento de dano e poções de velocidade para ajudar na luta.</li>
-				</ul>
-			</section>
-			<section>
-				<h3>Drops</h3>
-				<ul>
-					<li>Tissue Samples: São usados para criar itens avançados no jogo;</li>
-					<li>Crimtane Ore: É um minério que pode ser usado para criar armas e armaduras do Crimson;</li>
-					<li>Demonite Ore: É um minério alternativo que pode ser usado para criar armas e armaduras corrompidas;</li>
-					<li>Brain of Confusion: É um acessório que dá uma chance de evasão e confunde os inimigos próximos quando o jogador é atingido;</li>
-					<li>Creeper Egg: É um item consumível que invoca um Creeper, uma criatura aliada que luta ao seu lado;</li>
-					<li>Moedas: A Treasure Bag também pode conter uma quantidade de moedas como recompensa adicional.</li>
-				</ul>
-			</section>
-		</article>
-	</div>
-	<!--QueenBee-->
-	<figure>
-		<img class="banner" src="img/QueenBee.jpg" alt="Imagem contendo um dos primeiros bosses de Terraria, um jogo RPG pixelado, associado a selva">
-	</figure>
-	<div class="container6" id="QueenBee">
-		<h1>Abelha-Rainha</h1>
-		<p>Queen Bee é uma abelha enorme com 3.400/ 4.760 / 6.069 de saúde.</p>
-		<p>Derrotar Queen Bee permitirá que o Witch Doctor apareça, fora isso, ela não avança o jogo em um sentido importante, embora derrotá-la forneça alguns itens decentes que podem ajudar ainda mais o jogador a se preparar para batalhas posteriores contra chefes.</p>
-		<figure>
-			<img class="boss" src="img/QueenBeegif.webp" alt="Queen Bee">
-		</figure>
-		<article>
-			<h2> APRESENTAÇÃO </h2>
-			<section>
-				<h3>Spawn / Summon</h3>
-				<p>Ela é convocada destruindo uma Larva, encontrada dentro das paredes de "Bee Hives" localizadas na Selva Subterrânea ou pelo uso de um "Abeemination" em qualquer lugar do bioma da Selva.</p>
-				<figure>
-					<img class="item" src="img/Larvaspawn.png" alt="Larva">
-				</figure>
-			</section>
-		</article>
-		<article>
-			<h2>BOSS-FIGHT - PREPARO</h2>
-			<section>
-				<h3>Itens Recomendados - Estratégias</h3>
-			</section>
-			<section>
-				<h3>Drops</h3>
-				<ul>
-					<li></li>
-				</ul>
-			</section>
-		</article>
-	</div>
-	<!--Skeletron-->
-	<figure>
-		<img class="banner" src="img/Skeletron.jpg" alt="Imagem contendo um dos primeiros bosses de Terraria, um jogo RPG pixelado, associado a dungeon">
-	</figure>
-	<div class="container5" id="Skeletron">
-		<h1>Skeletron</h1>
-		<p>Skeletron é uma grande cabeça esquelética com 4.400 / 8.800 / 11.220 de saúde e duas mãos.</p>
-		<p>Derrotar Skeletron impedirá que os Guardiões da Masmorra apareçam, permitindo acesso livre à masmorra.</p>
-		<figure>
-			<img class="boss" src="img/Skeletrongif.png" alt="Skeletron">
-		</figure>
-		<article>
-			<h2>APRESENTAÇÃO</h2>
-			<section>
-				<h3>Spawn / Summon</h3>
-				<p>O Skeletron pode ser encontrado no "Dungeon" (masmorra) do mundo. Para desencadear a luta contra o Skeletron, é necessário falar com o Velho (Old Man) encontrado na entrada da Dungeon durante a noite. Ele permitirá que você inicie a batalha.</p>
-				<figure>
-					<img class="item" src="img/Clothier_Voodoo_Doll.png" alt="Clothier Doll">
-				</figure>
-			</section>
-		</article>
-		<article>
-			<h2>BOSS-FIGHT - PREPARO</h2>
-			<section>
-				<h3>Itens Recomendados - Estratégias</h3>
-				<ul>
-					<li>Antes da luta, é importante estar bem equipado. Recomenda-se uma armadura forte, armas poderosas e poções que aumentem sua velocidade, resistência e dano;</li>
-					<li>Construa uma arena espaçosa e bem iluminada para se mover livremente durante a batalha. Adicione plataformas para facilitar a locomoção vertical;</li>
-					<li>Durante a primeira fase da luta, os braços do Skeletron vão girar rapidamente, causando dano. Concentre-se em destruir os braços primeiro para enfraquecer o chefe;</li>
-					<li>Após destruir os braços, o Skeletron entrará em sua segunda fase. Nesta fase, ele se tornará mais agressivo e rápido. Continue a atacá-lo enquanto evita seus ataques;</li>
-					<li>Mantenha-se em movimento constante para evitar os ataques do Skeletron. Use armas de longo alcance ou mágicas para atingi-lo, enquanto evita seus ataques corpo a corpo;</li>
-					<li>No modo Expert, a cabeça do Skeletron é mais resistente a danos até que suas mãos sejam destruídas. Assim que pelo menos uma mão for destruída, ela começará a atirar crânios teleguiados no jogador. Também é muito mais rápido. Suas mãos infligem o debuff Slow , e sua cabeça inflige Bleeding . Se o jogador for pego por seu ataque de giro de cabeça, o Skeletron pode "travá-lo", uma situação letal que só pode ser evitada por alta mobilidade, por exemplo, com um gancho.</li>
-				</ul>
-			</section>
-			<section>
-				<h3>Drops</h3>
-				<ul>
-					<li>Cobalt Shield: Um acessório que concede imunidade temporária ao knockback;</li>
-					<li>Bone Glove: Uma luva que aumenta o dano corpo a corpo dos projéteis ósseos;</li>
-					<li>Book of Skulls: Um livro que lança projéteis mágicos em forma de crânios;</li>
-					<li>Clothier Voodoo Doll: Um item usado para invocar o Clothier Voodoo Doll, necessário para lutar contra o Wall of Flesh (muralha de carne);</li>
-					<li>O Skeletron pode soltar outros itens, como moedas e poções. Os drops podem variar de acordo com a versão do jogo e a plataforma em que você está jogando.</li>
-				</ul>
-			</section>
-		</article>
-	</div>
-	<!--WallofFlesh-->
-	<figure>
-		<img class="banner" src="img/Wall of flesh-new.jpg" alt="Imagem contendo um dos primeiros bosses de Terraria, um jogo RPG pixelado, associado ao inferno">
-	</figure>
-	<div class="container7" id="Wallofflesh">
-		<h1>Parede-de-Carne</h1>
-		<p></p>
-		<figure>
-			<img class="boss" src="img/Wall_of_Fleshgif.gif" alt="Wall of Flesh">
-		</figure>
-		<article>
-			<h2>APRESENTAÇÃO</h2>
-			<section>
-				<h3>Spawn / Summon</h3>
-				<p></p>
-				<figure>
-					<img class="item" src="img/Guide_Voodoo_Doll.png" alt="Guide Doll">
-				</figure>
-			</section>
-		</article>
-		<article>
-			<h2>BOSS-FIGHT - PREPARO</h2>
-			<section>
-				<h3>Itens Recomendados - Estratégias</h3>
-			</section>
-			<section>
-				<h3>Drops</h3>
-				<ul>
-					<li></li>
-				</ul>
-			</section>
-		</article>
-	</div>
-	<footer>
-		<p>Desenvolvido por Bryan Almeida </p>
-		<a target="_blank" href="https://github.com/BryanAlmeida016"><img class="social" src="img/Icones/github.webp" alt="Caminho para meu git"></a> 
-		<a target="_blank" href="https://br.linkedin.com/"><img class="social" src="img/Icones/Linkedin.png" alt="Caminho para meu futuro linkedin"></a> 
-	</footer>
-</body>
-</html>
+		  <section>
+			<h1><img class="guia" src="img/NPC - Guia.webp" alt="guia">Viagem Rápida</h1>
+			<div class="linha">
+			  <div class="col-4">
+				<div class="card">
+				  <a href="biomas.html"><img class="key" src="img/pilar da floresta.gif" alt="biomas"></a>
+				  <div>
+					<h1>
+					 BIOMAS
+				   </h1>
+				 </div>
+				</div>
+			 </div>
+			  <div class="col-4">
+				<div class="card">
+				  <a href="bosses.html"><img class="key" src="img/pilar consagrado.gif" alt="bosses"></a>
+				  <div>
+					<h1>
+					  BOSSES
+					</h1>
+				 </div>
+				</div>
+			  </div>
+			  <div class="col-4">
+				<div class="card">
+				  <a href="musicas.html"><img class="key" src="img/pilar da neve.gif" alt="músicas"></a>
+				  <div>
+					<h1>
+					  SOUNDTRACKS
+					</h1>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </section>		
+	  </div>
+	  <footer>
+		<p>Desenvolvido por Bryan Almeida <a href="https://github.com/BryanAlmeida016" target="_blank"><img class="social" src="img/Icones/github.webp" alt="github"></a> <a href="https://br.linkedin.com/" target="_blank"><img class="social" src="img/Icones/Linkedin.png" alt="linkedin"></a></p> 
+	</body>
+	</html>
